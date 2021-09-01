@@ -6,3 +6,211 @@
     padding: 1em 1.5em;
   }
 }
+
+.header--logo {
+  max-width: 105px;
+
+  @media only screen and (min-width: 45em) {
+    max-width: 180px;
+  }
+}
+
+body {
+  background: #85827d;
+}
+
+.header {
+  background: #85827d;
+}
+
+.nav {
+  background: #7b7975;
+}
+
+.footer {
+  background: #84817c;
+}
+
+.teaser--group-text.is-dagtilbud {
+  background: rgb(41, 127, 120, .7);
+}
+
+.teaser--group-inner:hover .teaser--group-text.is-dagtilbud {
+  background: #297f78;
+}
+
+.teaser--group-text.is-grundskole {
+  background: rgb(84, 81, 100, .7);
+}
+
+.teaser--group-inner:hover .teaser--group-text.is-grundskole {
+  background: #545164;
+}
+
+.teaser--group-text.is-ungdomsuddannelse {
+  background: rgb(175, 97, 14, .7);
+}
+
+.teaser--group-inner:hover .teaser--group-text.is-ungdomsuddannelse {
+  background: #af610e;
+}
+
+.teaser--group-text.is-course {
+  background: rgb(234, 214, 0, .7);
+}
+
+.teaser--group-inner:hover .teaser--group-text.is-course {
+  background: #ead600;
+}
+
+.search {
+
+  &--widget {
+    color: rgba(0, 0, 0, 0.5);
+
+    &.is-daycare,
+    &.is-daycare .search--filter-dropdown,
+    &.is-daycare .search--filter-dropdown-submit,
+    &.is-daycare .search--widget-selected,
+    &.is-daycare .search--filter-search-submit {
+      background: #297f78;
+    }
+
+    &.is-school,
+    &.is-school .search--filter-dropdown,
+    &.is-school .search--filter-dropdown-submit,
+    &.is-school .search--widget-selected,
+    &.is-school .search--filter-search-submit {
+      background: #545164;
+    }
+
+    &.is-youth,
+    &.is-youth .search--filter-dropdown,
+    &.is-youth .search--filter-dropdown-submit,
+    &.is-youth .search--widget-selected,
+    &.is-youth .search--filter-search-submit {
+      background: #af610e;
+    }
+
+    &.is-course,
+    &.is-course .search--filter-dropdown,
+    &.is-course .search--filter-dropdown-submit,
+    &.is-course .search--widget-selected,
+    &.is-course .search--filter-search-submit {
+      background: #ead600;
+    }
+  }
+}
+
+.search-results {
+
+  &--result {
+
+    &.is-dagtilbud {
+      border-bottom: 6px solid #297f78;
+    }
+
+    &.is-grundskole {
+      border-bottom: 6px solid #545164;
+    }
+
+    &.is-ungdomsuddannelse {
+      border-bottom: 6px solid #af610e;
+    }
+
+    &.is-course {
+      border-bottom: 6px solid #ead600;
+    }
+  }
+}
+
+p::-moz-selection {
+  background: #6b8c44;
+}
+
+p::selection {
+  background: #6b8c44;
+}
+
+.field--collection-label {
+  background: #585551;
+}
+
+.block--light {
+  background: #e3e3dc;
+}
+
+.block--dark {
+  background: #585551;
+}
+
+.pretix-widget.pretix-widget-mobile.pretix-widget-event-calendar td.pretix-widget-has-events.pretix-widget-day-availability-green {
+  background: #89a442;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-calendar td.pretix-widget-has-events.pretix-widget-day-availability-orange {
+  background: #f7e203;
+}
+
+.teaser--list-button {
+  background: #f7e203;
+  color: #444340!important;
+  border-radius: 0;
+  text-decoration: none;
+  text-shadow: none;
+  border: none;
+  padding: 1em 1.5em;
+
+  &:link {
+    color: #444340!important;
+  }
+
+  &:hover {
+    background: #edd71c;
+  }
+}
+
+.block--buttons {
+  .button {
+    color: #444340!important;
+    background: #f7e203!important;
+    text-shadow: none;
+    border: none;
+    padding: 1em 1.5em;
+
+    &:link {
+      color: #444340!important;
+    }
+
+    &:hover {
+      background: #edd71c!important;
+    }
+  }
+}
+
+.button {
+  color: #444340!important;
+  background: #f7e203!important;
+  text-shadow: none;
+  border: none;
+  padding: 1em 1.5em;
+
+  &:link {
+    color: #444340!important;
+  }
+
+  &:hover {
+    background: #edd71c!important;
+  }
+}
+
+.block--pdf-link:link {
+  color: #444340!important;
+  background: #f7e203!important;
+  border: none;
+  text-shadow: none;
+
+  &:hover {
+    background: #edd71c!important;
+  }
+}
