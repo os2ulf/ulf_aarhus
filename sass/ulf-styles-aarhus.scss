@@ -136,7 +136,7 @@ body {
 }
 
 .field--title.is-dagtilbud {
-  background: #297f78;
+  border-color: #297f78;
 }
 
 .is-grundskole .ribbon {
@@ -144,7 +144,7 @@ body {
 }
 
 .field--title.is-grundskole {
-  background: #545164;
+  border-color: #545164;
 }
 
 .is-ungdomsuddannelse .ribbon {
@@ -152,7 +152,7 @@ body {
 }
 
 .field--title.is-ungdomsuddannelse {
-  background: #af610e;
+  border-color: #af610e;
 }
 
 .is-course .ribbon {
@@ -160,7 +160,27 @@ body {
 }
 
 .field--title.is-course {
-  background: #ead600;
+  border-color: #ead600;
+}
+
+.is-dagtilbud.teaser {
+  border-bottom: 6px solid #297f78;
+}
+
+.is-grundskole.teaser {
+  border-bottom: 6px solid #545164;
+}
+
+.is-ungdomsuddannelse.teaser {
+  border-bottom: 6px solid #af610e;
+}
+
+.is-course.teaser {
+  border-bottom: 6px solid #ead600;
+}
+
+.field--title {
+  background: rgba(255,255,255,0.7);
 }
 
 p::-moz-selection {
