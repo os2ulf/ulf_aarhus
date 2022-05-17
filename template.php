@@ -43,7 +43,7 @@ function ulf_aarhus_preprocess_node(&$variables) {
             // Provide variables for use in the different templates.
             if ($button['value'] == 'show_free_course_request') {
               $path = (isset($term) && $term->name === 'Dagtilbud') ? '/ansoeg/udgiftsdaekning/dagtilbud' : '/ansoeg/udgiftsdaekning';
-              $buttons[] = l('ULF i Aarhus betaler dette forløb - ansøg her!', $path, [
+              $buttons[] = l('Ansøg om betaling af dette forløb!', $path, [
                 'attributes' => [
                   'class' => ['button'],
                   'target' => '_blank',
